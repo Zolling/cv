@@ -1,4 +1,3 @@
-#[rsschool-cv](https://zolling.github.io/rsschool-cv/cv)
 # Maria Sherminskaya
 ## Junior Frontend Developer
 ### Contacts:
