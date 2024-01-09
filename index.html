@@ -12,24 +12,32 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#summary">Summary</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#code">Code</a></li>
+                <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#languages">Languages</a></li>
+                <li><a href="#about">About me</a></li>
+                
             </ul>
         </nav>
     </header>
     
     <main>
-        <div id="crunch"><a href="./assets/img/ava_full.jpeg"><img class="avatar" src="./assets/img/avatar.jpeg" alt="profile photo"></a></div>
-        <div id="my_name">
-            <h1>Maria Sherminskaya</h1>
-            <div class="line"></div>
-            <h2>Junior Front-end Developer</h2>
+        <div class="me">
+            <div id="crunch"><a href="./assets/img/ava_full.jpeg"><img class="avatar" src="./assets/img/avatar.jpeg" alt="profile photo"></a></div>
+            <div id="my_name">
+                <h1>Maria Sherminskaya</h1>
+                <div class="line"></div>
+                <h2>volunteer</h2>
+            </div>
         </div>
+
+        <section id="summary" >
+            <h2>Summary</h2>
+            <p>I'm a 34-year-old doctor of medicine from Russia, graduated from the State Medical Academy in 2013, and worked as a nephrologist for 8 years. Since 2017, I have also worked as the deputy head physician in a large private clinic with a staff of 50 people under my leadership. We have made significant progress in both medical and organizational aspects of our work. It hasn't been easy, and I am proud of our achievements. Currently, I am on maternity leave as my daughter is already 2.5 years old.</p>
+            <p>In 2022, my family had moved from Russia to Kazakhstan, and we are preparing ourselves to move to Sweden. I'm going to pass Kunskapsprov för läkare in 2024-2025 and get the license for medical practice in Sweden. I'm looking for an opportunity to know more about Swedish work culture and psychology, make new friends, start using Swedish in real tasks, and combine all of this with my Kunskapsprov preparation.</p>
+        </section>
     
         <section id="contacts">
             <h2>Contacts</h2>
@@ -44,60 +52,27 @@
                 <li>Telegram: <a href="https://t.me/Zollin">@Zollin</a>
             </ul>
         </section>
-    
-        <section id="summary">
-            <h2>Summary</h2>
-            <p>I graduated from the State Medical Academy in 2013 and worked as a nephrologist for 8 years. Since 2017, I have also worked as the deputy chief physician in a large private clinic with a staff of 50 people under my leadership. We have made significant progress in both medical and organizational aspects of our work. It hasn't been easy, and I am proud of our achievements. Currently, I am on maternity leave as my daughter is already 2 years old. Over the past year, my family and I have been living in Kazakhstan, and we are looking for an opportunity to move to Europe. I have always been attracted to the IT sphere, and during my "vacation," I had the chance to explore it further through The Odin Project course. I absolutely love this magical world and I want to dive deeper.</p>
-        </section>
-    
-        <section id="skills">
-            <h2>Skills</h2>
-             <ul>
-                 <li>HTML 5</li>
-                 <li>CSS 3</li>
-                 <li>Git, GitHub</li>
-                 <li>JavaScript Basics</li>
-                 <li>VS Code</li>
-             </ul>
-        </section>
-    
-        <section id="code">
-            <h2>Code example</h2>
-    <pre>
-    function findAverage(array) {
-        let list = 0;
-        if (array.length == 0) {
-            return 0;
-        } else {
-            for (var i in array) {
-            list += array[i];
-            }
-            return (list / array.length);
-        }
-    };
-    </pre>
-        </section>
-    
-        <section class="projects">
-            <h2>Projects</h2>
-                <ul>
-                    <li><a href="https://zolling.github.io/odin-recipes/">The Odin's Recipe Book</a></li>
-                </ul>
-        </section>
-    
-    
+
         <section id="education">
             <h2>Education</h2>
             <ul>
-                <li>Izhevsk State Medical Academy</li>
-                <li>Odin Project. Fundamentals (in progress)</li>
-                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                <li>2006 - 2013 - Izhevsk State Medical Academy, General Medicine</li>
+                <li>2013 - Ural State Medical Academy, Nephrology</li>
+                <li>2018 - National Academy of Modern Technologies, Health organisation and public health</li>
             </ul>
         </section>
-    
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>2013 - 2017 - Diaverum Ryssland, dialysis center; nephrologist</li>
+                <li>2017 - until now - local dialysis center; deputy head physician, nephrologist</li>
+                <li>05.2021 - until now - maternity leave</li>
+            </ul>
+        </section>
+
         <section id="languages">
             <h2>Languages</h2>
-    
             <ul>
                 <li>
                     <label for="russian">Russian native</label>
@@ -108,16 +83,21 @@
                     <progress id="english" max="100" value="67"></progress>
                 </li>
                 <li>
-                    <label for="swedish">Swedish A1</label>
+                    <label for="swedish">Swedish A2</label>
                     <progress id="swedish" max="100" value="16"></progress>
                 </li>
             </ul>
         </section>
+
+        <section id="about">
+            <h2>About me</h2>
+            <p>After a long time of hard work, I try my best to maintain a work/life balance. I adore spending time with my 2.5-year-old daughter, Kate. I also love hiking, camping, enjoy metal music, and cooking (as it has become an inevitable process)). Additionally, I spend some time each day learning Swedish and improving my English. </p>
+        </section>
     </main>
     
     <footer>
-        <div class="container">&copy; 2023 &nbsp;<a href="https://github.com/zolling"> Zolling</a></div>
-        <div><a href="https://rs.school/js/"><img src="./assets/img/RSS_logo.svg" alt="RS school logo"></a></div>
+        <div class="container">&copy; 2024 &nbsp;<a href="https://github.com/zolling"> Zolling</a></div>
+        <!-- <div><a href="https://rs.school/js/"><img src="./assets/img/RSS_logo.svg" alt="RS school logo"></a></div> -->
     </footer>
 </div>
 
