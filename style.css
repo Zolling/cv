@@ -1,3 +1,141 @@
-* {
+body {
+    background-color: #fff4f5;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+header {
+    margin: 0;
+    background-color: #472c4ee3;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+    width: fit-content;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    color: #decbcc;
+    font-size: 1.35em;
+    text-decoration: none;
+    letter-spacing: 0.075em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: #8b6c85;
+    padding: 20px;
+    display: flex;
+}
+
+footer div {
+    width: 150px;
+    align-items: center;
+}
+
+main {
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5%;
+}
+
+section {
+    border-bottom: 1px solid #8e7c3a;
+    border-top-left-radius: 5px;
+    padding: 40px;
+    flex-basis: 40%;
+}
+
+/* #projects,
+#education,
+#languages {
+    flex-basis: max-content;
+} */
+section h2 {
+    color: #351853;
+    margin: 0 0 10px 0;
+}
+
+section p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.avatar
+{
+    width: 300px;
+    border-radius: 50%;
+}
+
+#my_name {
+    text-align: center;
+    align-self: flex-end;
+    padding-top: 50px;
+    align-self: stretch;
+    flex-basis: 70%;
+}
+
+#my_name h1 {
+    font-size: 4em;
+    color: #472c4e;
+    padding: 0;
+    margin: 0.25em auto;
+    width: fit-content;
+}
+
+.line {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 0.5px solid #8e7c3a;
+}
+
+#my_name h2 {
+    color: #523464;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+footer .container {
+    color:black;
+    font-size: 1.25em;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.main_container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
